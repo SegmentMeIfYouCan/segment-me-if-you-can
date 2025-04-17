@@ -1495,7 +1495,27 @@
       "method": "FlowCLAS",
       "paper": "https://arxiv.org/abs/2411.19888",
       "requires_ood": false
-  }
+  },
+  {
+    "ObstacleTrack-test-PixBinaryClass-area_PRC": 0.6430575408,
+    "ObstacleTrack-test-PixBinaryClass-tpr95_fpr": 0.0264366343,
+    "ObstacleTrack-test-PixBinaryClass-best_f1": 0.6193868713,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-sIoU_gt": 0.3026223126,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-prec_pred": 0.3309467123,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fn_25": 192,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fp_25": 405,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-f1_25": 0.3963599596,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fn_50": 267,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fp_50": 443,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-f1_50": 0.2542016807,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fn_75": 364,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fp_75": 534,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-f1_75": 0.0507399577,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.2413493625,
+    "method": "DOoD",
+    "requires_ood": false,
+    "paper": "https://arxiv.org/abs/2407.15739"
+  } 
   ],
   "laf_no_known": [
     {
@@ -1882,6 +1902,26 @@
       "paper": "https://arxiv.org/abs/2405.19882",
       "requires_ood": false,
       "code": "https://github.com/vojirt/PixOOD"
+    },
+    {
+      "LostAndFound-testNoKnown-PixBinaryClass-area_PRC": 0.794878823,
+      "LostAndFound-testNoKnown-PixBinaryClass-tpr95_fpr": 0.0374833049,
+      "LostAndFound-testNoKnown-PixBinaryClass-best_f1": 0.7597236546,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-sIoU_gt": 0.2767690224,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-prec_pred": 0.4063979826,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-fn_25": 961,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-fp_25": 980,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-f1_25": 0.435263311,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-fn_50": 1182,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-fp_50": 1023,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-f1_50": 0.3234120896,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-fn_75": 1517,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-fp_75": 1219,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-f1_75": 0.1230769231,
+      "LostAndFound-testNoKnown-SegEval-ObstacleTrack-f1_mean": 0.3047604386,
+      "method": "DOoD",
+      "requires_ood": false,
+      "paper": "https://arxiv.org/abs/2407.15739"
     }
   ]
 }
