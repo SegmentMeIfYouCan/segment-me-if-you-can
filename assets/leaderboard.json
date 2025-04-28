@@ -748,7 +748,25 @@
       "method": "FlowCLAS",
       "paper": "https://arxiv.org/abs/2411.19888",
       "requires_ood": false
-    }   
+    },
+    {
+      "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.8930291298,
+      "AnomalyTrack-test-PixBinaryClass-tpr95_fpr": 0.1187512154,
+      "AnomalyTrack-test-PixBinaryClass-best_f1": 0.821694845,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-sIoU_gt": 0.553628345,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-prec_pred": 0.5153352933,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_25": 74,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_25": 254,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_25": 0.5340909091,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_50": 104,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_50": 263,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_50": 0.4626647145,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_75": 138,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_75": 284,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75": 0.3701492537,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.4616205705,
+      "method": "SOTA"
+    }
   ],
   "obstacle_track": [
     {
@@ -1515,7 +1533,25 @@
     "method": "DOoD",
     "requires_ood": false,
     "paper": "https://arxiv.org/abs/2407.15739"
-  } 
+  },
+  {
+    "ObstacleTrack-test-PixBinaryClass-area_PRC": 0.876281792,
+    "ObstacleTrack-test-PixBinaryClass-tpr95_fpr": 0.0050107554,
+    "ObstacleTrack-test-PixBinaryClass-best_f1": 0.866110838,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-sIoU_gt": 0.5223784746,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-prec_pred": 0.771397331,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fn_25": 112,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fp_25": 77,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-f1_25": 0.7449392713,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fn_50": 155,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fp_50": 79,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-f1_50": 0.6657142857,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fn_75": 240,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-fp_75": 88,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-f1_75": 0.4743589744,
+    "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.6466098748,
+    "method": "SOTA"
+    }   
   ],
   "laf_no_known": [
     {
