@@ -19,6 +19,21 @@ title: Submit
           </div>
         </div>
 
+        <div class="row  justify-content-md-center">
+
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="pricing-table-block">
+              <div class="plan-name">
+                <h3>Evaluate on Codabench</h3>
+              </div>
+              <div class="plan-signup">
+                <a href="https://www.codabench.org/competitions/5402/?secret_key=a0e2cad5-e9d4-4a27-880c-6cbcaeddd9a4" class="btn btn-common" target="_blank">Go to Competition Page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+
         <div class="text-center">
             <p>
               If you have problems with submitting your method, you can get in touch with us via
@@ -34,16 +49,18 @@ title: Submit
         </div>
         <div class="mb-60"></div>
 
-        <p class="lead">The progress in out-of-distribution segmentation over the past few years has been nothing short of exceptional. Today's state-of-the-art methods have achieved performance levels we were not sure would be possible when we first launched the Segment Me If You Can benchmark back in 2021. We would like to thank every participant who submitted their methods and helped push the field forward.
+        <h4>Why Evaluate on Codabench?</h4>
 
-        After several years of manually evaluating submissions, we have come to realize that we unfortunately no longer have the capacity to maintain the benchmark in this form. However, rather than shutting it down, we wanted to ensure it remains a valuable resource for future research. For this reason, we have migrated to an automated evaluation system on Codabench: <a href="https://www.codabench.org/competitions/5402/?secret_key=a0e2cad5-e9d4-4a27-880c-6cbcaeddd9a4" target="_blank">Link to Competition</a>
-          
-        The ground truth labels remain private to ensure the integrity of the benchmark, but researchers can now evaluate their methods more efficiently and continue contributing to this evolving area.</p>
+        <p class="lead">The progress in out-of-distribution segmentation over the past few years has been nothing short of exceptional. Today's state-of-the-art methods have achieved performance levels we were not sure would be possible when we first launched the <a href=>Segment Me If You Can</a> benchmark back in 2021. We would like to thank every participant who submitted their methods and helped push the field forward.<br><br>
+
+        After several years of manually evaluating submissions, we have come to realize that we unfortunately no longer have the capacity to maintain the benchmark in this form. However, rather than shutting it down, we wanted to ensure it remains a valuable resource for future research. For this reason, we have migrated to an automated evaluation platform on Codabench: <a href="https://www.codabench.org/competitions/5402/?secret_key=a0e2cad5-e9d4-4a27-880c-6cbcaeddd9a4" target="_blank">Go to Competition Page</a><br><br>
+
+        The ground truth labels remain private to ensure the integrity of the benchmark, but researchers can now evaluate their methods more efficiently and continue contributing to this evolving area.</p><br>
 
         <h4>Prepare Predictions</h4>
 
         <p class="lead">In order to evaluate your method, we require pixel-wise anomaly / obstacle scores, where higher values correspond to anomaly / obstacle prediction.
-          Our benchmark <a href="https://github.com/adynathos/road-anomaly-benchmark" target="_blank">code</a> provides an inference wrapper for that:</p><br>
+          Our benchmark <a href="https://github.com/adynathos/road-anomaly-benchmark" target="_blank">code</a> provides an inference wrapper for that:</p>
         
 
     <pre><code id="python_code">
