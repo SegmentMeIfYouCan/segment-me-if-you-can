@@ -766,8 +766,28 @@
       "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75": 0.3701492537,
       "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.4616205705,
       "method": "SOTA"
+    },
+    {"AnomalyTrack-test-PixBinaryClass-area_PRC": 0.9388540635, 
+      "AnomalyTrack-test-PixBinaryClass-tpr95_fpr": 0.0785561243, 
+      "AnomalyTrack-test-PixBinaryClass-best_f1": 0.8846444326, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-sIoU_gt": 0.5276460665, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-prec_pred": 0.5975034576, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_25": 91, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_25": 132, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_25": 0.6053097345, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_50": 102, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_50": 136, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_50": 0.5734767025, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_75": 144, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_75": 143, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75": 0.4512428298, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.5538235694, 
+      "method": "SOTA-RbA",
+      "paper": "https://arxiv.org/abs/2504.19183",
+      "requires_ood": false
     }
   ],
+  
   "obstacle_track": [
     {
       "ObstacleTrack-test-PixBinaryClass-area_PRC": 0.7134244034,
@@ -1551,7 +1571,24 @@
     "ObstacleTrack-test-SegEval-ObstacleTrack-f1_75": 0.4743589744,
     "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.6466098748,
     "method": "SOTA"
-    }   
+    },
+    {"ObstacleTrack-test-PixBinaryClass-area_PRC": 0.9186841218, "ObstacleTrack-test-PixBinaryClass-tpr95_fpr": 0.0006169774, 
+      "ObstacleTrack-test-PixBinaryClass-best_f1": 0.8866565246, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-sIoU_gt": 0.5849412665, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-prec_pred": 0.6680668376, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_25": 78, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_25": 67, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_25": 0.8104575163, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_50": 109, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_50": 85, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_50": 0.7420212766, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_75": 228, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_75": 158, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_75": 0.4532577904, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.696359516, 
+      "method": "SOTA-RbA",
+      "paper": "https://arxiv.org/abs/2504.19183",
+      "requires_ood": false}
   ],
   "laf_no_known": [
     {
