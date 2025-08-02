@@ -809,7 +809,29 @@
       "paper": "https://arxiv.org/abs/2409.06424",
       "requires_ood": true,
       "code": "https://github.com/NazirNayal8/UEM-likelihood-ratio"
+    },
+    {
+      "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.9577287552, 
+      "AnomalyTrack-test-PixBinaryClass-tpr95_fpr": 0.0249347436, 
+      "AnomalyTrack-test-PixBinaryClass-best_f1": 0.9081531646, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-sIoU_gt": 0.6829436209, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-prec_pred": 0.4465420547, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_25": 47, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_25": 225, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_25": 0.6125356125, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_50": 61, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_50": 230, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_50": 0.5800865801, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_75": 90, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_75": 246, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75": 0.5058823529, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.569688576, 
+      "method": "SOTA-RbA",
+      "paper": "https://arxiv.org/abs/2504.19183",
+      "requires_ood": true,
+      "code": "https://github.com/Orange-rightperson/SOTA"
     }
+    
   ],
   
   "obstacle_track": [
