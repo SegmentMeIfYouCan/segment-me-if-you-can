@@ -809,10 +809,52 @@
       "paper": "https://arxiv.org/abs/2409.06424",
       "requires_ood": true,
       "code": "https://github.com/NazirNayal8/UEM-likelihood-ratio"
+    },
+    {
+      "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.941864314, 
+      "AnomalyTrack-test-PixBinaryClass-tpr95_fpr": 0.0581553689, 
+      "AnomalyTrack-test-PixBinaryClass-best_f1": 0.8685319996, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-sIoU_gt": 0.4884647564, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-prec_pred": 0.4949629949, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_25": 82, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_25": 193, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_25": 0.5669291339, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_50": 117, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_50": 204, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_50": 0.4746317512, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_75": 177, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_75": 253, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75": 0.2833333333, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.4608863479, 
+      "method": "ULRE",
+      "paper": "https://arxiv.org/pdf/2508.00587",
+      "requires_ood": true,
+      "code": "https://github.com/glasbruch/ULRE"
     }
   ],
   
   "obstacle_track": [
+    {
+      "ObstacleTrack-test-PixBinaryClass-area_PRC": 0.9106520376, 
+      "ObstacleTrack-test-PixBinaryClass-tpr95_fpr": 0.0018527096, 
+      "ObstacleTrack-test-PixBinaryClass-best_f1": 0.8233649499, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-sIoU_gt": 0.377673852, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-prec_pred": 0.6580144349, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_25": 166, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_25": 58, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_25": 0.6646706587, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_50": 199, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_50": 64, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_50": 0.5897035881, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_75": 326, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_75": 143, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_75": 0.2091062395, 
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.5162095576, 
+      "method": "ULRE",
+      "paper": "https://arxiv.org/pdf/2508.00587",
+      "requires_ood": true,
+      "code": "https://github.com/glasbruch/ULRE"
+    },
     {
       "ObstacleTrack-test-PixBinaryClass-area_PRC": 0.7134244034,
       "ObstacleTrack-test-PixBinaryClass-tpr95_fpr": 0.0315425253,
