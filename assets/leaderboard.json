@@ -851,6 +851,27 @@
       "paper": "https://arxiv.org/pdf/2508.00587",
       "requires_ood": true,
       "code": "https://github.com/glasbruch/ULRE"
+    },
+    {
+      "AnomalyTrack-test-PixBinaryClass-area_PRC":	0.8492709619,
+      "AnomalyTrack-test-PixBinaryClass-tpr95_fpr":	0.1039116948,
+      "AnomalyTrack-test-PixBinaryClass-best_f1":	0.7900283668,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-sIoU_gt":	0.4954858003,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-prec_pred":	0.3475309448,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_25":	75,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_25":	362,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_25":	0.4611590629,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_50":	108,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_50":	374,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_50":	0.3898734177,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_75":	187,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_75":	417,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75":	0.198938992,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean":	0.3654329044,
+      "method":	"RPL+SupLID",
+      "paper": "",
+      "requires_ood": false,
+      "code": "https://github.com/hdnugit/SupLID"
     }
   ],
   
@@ -1701,6 +1722,27 @@
       "paper": "https://arxiv.org/abs/2409.06424",
       "requires_ood": true,
       "code": "https://github.com/NazirNayal8/UEM-likelihood-ratio"
+    },
+    {
+      "ObstacleTrack-test-PixBinaryClass-area_PRC":	0.863247658,
+      "ObstacleTrack-test-PixBinaryClass-tpr95_fpr":	0.0062606394,
+      "ObstacleTrack-test-PixBinaryClass-best_f1":	0.7947247511,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-sIoU_gt":	0.5032971088,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-prec_pred":	0.6154668703,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_25":	112,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_25":	125,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_25":	0.6996197719,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_50":	153,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_50":	145,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_50":	0.6119791667,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_75":	264,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_75":	199,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_75":	0.3488045007,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean":	0.5813879873,
+      "method":	"RPL+SupLID",
+      "paper": "",
+      "requires_ood": false,
+      "code": "https://github.com/hdnugit/SupLID"
     }
   ],
   "laf_no_known": [
