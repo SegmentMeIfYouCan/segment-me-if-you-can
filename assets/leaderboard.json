@@ -851,7 +851,7 @@
       "paper": "https://arxiv.org/pdf/2508.00587",
       "requires_ood": true,
       "code": "https://github.com/glasbruch/ULRE"
-    }
+    },
     {
       "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.6182240993,
       "AnomalyTrack-test-PixBinaryClass-tpr95_fpr": 0.3751576383,
