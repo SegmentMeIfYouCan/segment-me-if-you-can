@@ -852,7 +852,27 @@
       "requires_ood": true,
       "code": "https://github.com/glasbruch/ULRE"
     },
-    }
+    {
+      "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.6182240993,
+      "AnomalyTrack-test-PixBinaryClass-tpr95_fpr": 0.3751576383,
+      "AnomalyTrack-test-PixBinaryClass-best_f1": 0.6211239744,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-sIoU_gt": 0.3115092104,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-prec_pred": 0.2436555749,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_25": 131,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_25": 745,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_25": 0.230228471,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_50": 182,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_50": 801,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_50": 0.1399825022,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_75": 237,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_75": 864,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75": 0.0434404865,
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.1372787641,
+      "method": "ProtoSegNet",
+      "paper": "",
+      "requires_ood": true,
+      "code": "https://github.com/alessioarcara/ml4cv_assignment"
+    },
       "code": "https://github.com/akafourteenSeven/Anom-DINO"
       "AnomalyTrack-test-PixBinaryClass-area_PRC":	0.8492709619,
       "AnomalyTrack-test-PixBinaryClass-tpr95_fpr":	0.1039116948,
