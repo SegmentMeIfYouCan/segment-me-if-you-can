@@ -933,7 +933,7 @@
       "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.6894557579,
       "method": "AnomDINO+RbA",
       "requires_ood": true,
-      "paper": "",
+      "paper": ""
     }
   ],
   "obstacle_track": [
@@ -1844,7 +1844,7 @@
       "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.9278841538,
       "method": "AnomDINO+RbA",
       "requires_ood": true,
-      "paper": "",
+      "paper": ""
     }
   ],
   "laf_no_known": [
