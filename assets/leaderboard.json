@@ -347,6 +347,26 @@
       "paper": "https://arxiv.org/abs/2211.06660",
       "code": "https://github.com/silviogalesso/dense-ood-knns"
     },
+    { 
+      "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.9223377218, 
+      "AnomalyTrack-test-PixBinaryClass-tpr95_fpr": 0.0877658176, 
+      "AnomalyTrack-test-PixBinaryClass-best_f1": 0.8453906279, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-sIoU_gt": 0.4683786557, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-prec_pred": 0.6898964698, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_25": 96, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_25": 46, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_25": 0.7004219409, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_50": 119, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_50": 52, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_50": 0.6258205689, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fn_75": 173, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-fp_75": 78, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75": 0.4149184149, 
+      "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.5954617548, 
+      "method": "OWLang", 
+      "requires_ood": false,
+      "paper": "https://arxiv.org/abs/2512.01427"
+    },
     {
       "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.9374901251,
       "AnomalyTrack-test-PixBinaryClass-tpr95_fpr": 0.0408586478,
