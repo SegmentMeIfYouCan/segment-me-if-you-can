@@ -364,8 +364,7 @@
       "AnomalyTrack-test-SegEval-AnomalyTrack-f1_75": 0.4149184149, 
       "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.5954617548, 
       "method": "OWLang", 
-      "requires_ood": false,
-      "paper": "https://arxiv.org/abs/2512.01427"
+      "requires_ood": false
     },
     {
       "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.9374901251,
