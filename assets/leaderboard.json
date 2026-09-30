@@ -1944,6 +1944,26 @@
       "requires_ood": true,
       "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_Beyond_Pixel_Uncertainty_Bounding_the_OoD_Objects_in_Road_Scenes_ICCV_2025_paper.html",
       "code": "https://github.com/huachao0124/DetSeg-official"
+    },
+    {
+      "ObstacleTrack-test-PixBinaryClass-area_PRC": 0.9103993037000855,
+      "ObstacleTrack-test-PixBinaryClass-tpr95_fpr": 0.0029818888585090176,
+      "ObstacleTrack-test-PixBinaryClass-best_f1": 0.8772839388487066,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-sIoU_gt": 0.5061946542881193,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-prec_pred": 0.45381360041429253,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_25": 101,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_25": 268,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_25": 0.6086956521739131,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_50": 144,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_50": 282,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_50": 0.5339168490153173,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fn_75": 276,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-fp_75": 348,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_75": 0.2641509433962264,
+      "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.49191353741731253,
+      "method": "DINOv3+RealNVP",
+      "paper": "",
+      "requires_ood": false
     }
   ],
   "laf_no_known": [
