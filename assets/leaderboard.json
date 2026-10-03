@@ -806,7 +806,7 @@
       "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.7296590221,
       "method": "FlowCLAS",
       "paper": "https://arxiv.org/abs/2411.19888",
-      "requires_ood": false
+      "requires_ood": true
     },
     {
       "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.8930291298,
@@ -844,7 +844,7 @@
       "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.5538235694,
       "method": "SOTA-RbA",
       "paper": "https://arxiv.org/abs/2504.19183",
-      "requires_ood": false
+      "requires_ood": true
     },
     {
       "AnomalyTrack-test-PixBinaryClass-area_PRC": 0.955799678,
@@ -885,7 +885,7 @@
       "AnomalyTrack-test-SegEval-AnomalyTrack-f1_mean": 0.569688576,
       "method": "SOTA-UEM",
       "paper": "https://arxiv.org/abs/2504.19183",
-      "requires_ood": false,
+      "requires_ood": true,
       "code": "https://github.com/Orange-rightperson/SOTA"
     },
     {
@@ -1781,7 +1781,7 @@
       "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.6277280598,
       "method": "FlowCLAS",
       "paper": "https://arxiv.org/abs/2411.19888",
-      "requires_ood": false
+      "requires_ood": true
     },
     {
       "ObstacleTrack-test-PixBinaryClass-area_PRC": 0.6430575408,
@@ -1839,7 +1839,7 @@
       "ObstacleTrack-test-SegEval-ObstacleTrack-f1_mean": 0.696359516,
       "method": "SOTA-RbA",
       "paper": "https://arxiv.org/abs/2504.19183",
-      "requires_ood": false
+      "requires_ood": true
     },
     {
       "ObstacleTrack-test-PixBinaryClass-area_PRC": 0.9437575331,
